@@ -32,19 +32,19 @@ class MyHomePage extends StatelessWidget {
               children:[ClipRRect(
                 borderRadius: BorderRadius.circular(100),
                 child: Image(
-                  image: NetworkImage("https://www.purina.co.uk/sites/g/files/mcldtz2481/files/2019-11/playful-russian-blue-cat.jpg"),
+                  image: NetworkImage("https://lh3.googleusercontent.com/a-/AOh14Gg31AW69o5eR2pL8ggD7kOKugBQKxI2vMqaSQpCqg=s288-cc-rg"),
                   width: 150, height: 150,
                 ), ),
                 Text("Gede Pande Darma Suardika", style: TextStyle(
-                  fontWeight: FontWeight.w600,
-                  fontSize: 25,
-                  height: 2.0,
-                  color: Colors.white
+                    fontWeight: FontWeight.w600,
+                    fontSize: 25,
+                    height: 2.0,
+                    color: Colors.white
                 ), ),
                 Text("https://pandedarma.com", style: TextStyle(
-                  fontWeight: FontWeight.w400,
-                  fontSize: 18,
-                  color: Colors.blueAccent
+                    fontWeight: FontWeight.w400,
+                    fontSize: 18,
+                    color: Colors.blueAccent
                 ), ),
                 Container(
                   margin: EdgeInsets.only(top:10),
